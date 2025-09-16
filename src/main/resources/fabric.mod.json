@@ -3,15 +3,15 @@
 	"id": "emeralddawn",
 	"version": "${version}",
 	"name": "EmeraldDawn",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Emerald Dawn is a Minecraft mod that makes emeralds way cooler! \uD83D\uDC9A Get shiny new emerald tools and armor with special powers, explore giant pillager cities filled with danger, and fight the Emerald Warlord boss for awesome loot. Plus, meet glowing emerald Allays that can sniff out ores and help you find treasure underground!\n\n",
 	"authors": [
-		"Me!"
+		"Jay!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://jaymc.net/",
+		"sources": "https://github.com/Jagan-Dev-9/EmeraldDawn"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/emeralddawn/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"net.jaymc.emeralddawn.EmeraldDawnDataGenerator"
+		],
+		"client": [
+			"net.jaymc.emeralddawn.EmeraldDawnClient"
 		]
 	},
 	"mixins": [
