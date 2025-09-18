@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "emeralddawn:block/ethernal_emerald_block"
+  }
+}
