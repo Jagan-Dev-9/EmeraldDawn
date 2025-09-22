@@ -1,6 +1,15 @@
 # Emerald Dawn
 
-A Minecraft Fabric mod that introduces magical emerald-based content, tools, and mystical mechanics to enhance your Minecraft experience.
+A Minecraft Fabric mod that introduces magical emera## 📥 Download
+
+**Latest Release: [v1.0.0](https://github.com/Jagan-Dev-9/EmeraldDawn/releases/tag/v1.0.0)**
+
+To download the mod:
+1. Go to the [Releases page](https://github.com/Jagan-Dev-9/EmeraldDawn/releases)
+2. Download the `emeralddawn-1.0.0.jar` file from the latest release
+3. Alternatively, you can build from source using `./gradlew build`
+
+The built JAR file can be found in the `build/libs/` directory after building.ed content, tools, and mystical mechanics to enhance your Minecraft experience.
 
 ## ✨ Features
 
@@ -73,7 +82,7 @@ A complete set of emerald tools crafted from Ethernal Emeralds:
 **Latest Release: [v1.0.0](https://github.com/Jagan-Dev-9/EmeraldDawn/releases/tag/v1.0.0)**
 
 - [Download emeralddawn-1.0.0.jar](https://github.com/Jagan-Dev-9/EmeraldDawn/releases/download/v1.0.0/emeralddawn-1.0.0.jar)
-- [Source Code](https://github.com/Jagan-Dev-9/EmeraldDawn/releases/download/v1.0.0/emeralddawn-1.0.0-sources.jar)
+- [Source Code](https://github.com/Jagan-Dev-9/EmeraldDawn)
 
 ## �📦 Installation
 
