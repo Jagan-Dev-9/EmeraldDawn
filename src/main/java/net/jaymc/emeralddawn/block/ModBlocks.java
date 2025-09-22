@@ -2,6 +2,7 @@ package net.jaymc.emeralddawn.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.jaymc.emeralddawn.EmeraldDawn;
+import net.jaymc.emeralddawn.block.custom.MagicBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.MapColor;
@@ -24,6 +25,14 @@ public class ModBlocks {
                             .requiresTool()
                             .strength(5.0F, 6.0F)
                             .sounds(BlockSoundGroup.METAL)
+            )
+    );public static final Block MAGIC_BLOCK = registerBlock(
+            "magic_block",
+            new MagicBlock(
+                    AbstractBlock.Settings.create()
+                            .requiresTool()
+                            .strength(1f)
+                            .sounds(BlockSoundGroup.AMETHYST_CLUSTER)
             )
     );
 

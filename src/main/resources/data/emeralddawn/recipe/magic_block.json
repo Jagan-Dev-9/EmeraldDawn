@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "emeralddawn:ethernal_emerald_block"
+    },
+    "*": {
+      "item": "emeralddawn:emerald_wand"
+    },
+    ".": {
+      "item": "emeralddawn:ethernal_emerald"
+    }
+  },
+  "pattern": [
+    "#.#",
+    ".*.",
+    "#.#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emeralddawn:magic_block"
+  }
+}

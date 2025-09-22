@@ -1,5 +1,18 @@
 {
   "item.emeralddawn.ethernal_emerald": "Ethernal Emerald",
   "block.emeralddawn.ethernal_emerald_block": "Block of Ethernal Emerald",
-  "itemgroup.emeralddawn.emeralddawn_items": "EmeraldDawn Items"
+  "block.emeralddawn.magic_block": "Ethernal Magic Block",
+
+  "itemgroup.emeralddawn.emeralddawn_items": "EmeraldDawn Items",
+
+  "item.emeralddawn.emerald_wand": "Emerald Wand",
+
+  "item.emeralddawn.emerald_apple": "Emerald Apple",
+  "item.emeralddawn.blue_berry": "Blue Berry",
+
+  "item.emeralddawn.emerald_pickaxe": "Emerald Pickaxe",
+  "item.emeralddawn.emerald_axe": "Emerald Axe",
+  "item.emeralddawn.emerald_sword": "Emerald Sword",
+  "item.emeralddawn.emerald_shovel": "Emerald Shovel",
+  "item.emeralddawn.emerald_hoe": "Emerald Hoe"
 }

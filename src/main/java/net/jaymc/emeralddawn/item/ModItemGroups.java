@@ -16,8 +16,19 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.ETHERNAL_EMERALD))
                     .displayName(Text.translatable("itemgroup.emeralddawn.emeralddawn_items"))
                     .entries((displayContext, entries) -> {
+
                         entries.add(ModItems.ETHERNAL_EMERALD);
+                        entries.add(ModItems.EMERALD_WAND);
                         entries.add(ModBlocks.ETHERNAL_EMERALD_BLOCK);
+                        entries.add(ModBlocks.MAGIC_BLOCK);
+                        entries.add(ModItems.EMERALD_APPLE);
+                        entries.add(ModItems.BLUE_BERRY);
+
+                        entries.add(ModItems.EMERALD_PICKAXE);
+                        entries.add(ModItems.EMERALD_AXE);
+                        entries.add(ModItems.EMERALD_SWORD);
+                        entries.add(ModItems.EMERALD_SHOVEL);
+                        entries.add(ModItems.EMERALD_HOE);
 
                     }).build());
 

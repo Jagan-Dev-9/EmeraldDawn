@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "R": {
+      "item": "emeralddawn:ethernal_emerald"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "RAR",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emeralddawn:emerald_apple"
+  }
+}

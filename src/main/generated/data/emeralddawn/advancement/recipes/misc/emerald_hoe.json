@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ethernal_emerald": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emeralddawn:ethernal_emerald"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "emeralddawn:emerald_hoe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ethernal_emerald"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "emeralddawn:emerald_hoe"
+    ]
+  }
+}
