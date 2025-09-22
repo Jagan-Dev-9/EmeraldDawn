@@ -68,11 +68,18 @@ A complete set of emerald tools crafted from Ethernal Emeralds:
 - **Mod Loader**: Fabric
 - **Dependencies**: Fabric API
 
-## 📦 Installation
+## � Download
 
-1. Install [Fabric Loader](https://fabricmc.net/use/)
+**Latest Release: [v1.0.0](https://github.com/Jagan-Dev-9/EmeraldDawn/releases/tag/v1.0.0)**
+
+- [Download emeralddawn-1.0.0.jar](https://github.com/Jagan-Dev-9/EmeraldDawn/releases/download/v1.0.0/emeralddawn-1.0.0.jar)
+- [Source Code](https://github.com/Jagan-Dev-9/EmeraldDawn/releases/download/v1.0.0/emeralddawn-1.0.0-sources.jar)
+
+## �📦 Installation
+
+1. Install [Fabric Loader](https://fabricmc.net/use/) for Minecraft 1.21
 2. Download [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
-3. Download the latest Emerald Dawn mod file
+3. Download the latest Emerald Dawn mod file from the releases above
 4. Place both files in your `mods` folder
 5. Launch Minecraft with the Fabric profile
 
