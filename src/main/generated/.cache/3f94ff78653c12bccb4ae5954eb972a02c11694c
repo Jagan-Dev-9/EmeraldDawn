@@ -1,3 +1,19 @@
-// 1.21	2025-09-22T21:33:06.2823901	EmeraldDawn/Tags for minecraft:block
-35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\emeralddawn\tags\block\incorrect_for_emerald_tool.json
-35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\emeralddawn\tags\block\needs_emerald_tool.json
+// 1.21	2025-09-30T07:24:10.3269423	EmeraldDawn/Tags for minecraft:block
+ff9f61f59509b8710baae9439038a97c0f3d6319 data\minecraft\tags\block\mineable\shovel.json
+5b64c6e3c9cd3170bab9758491e742e0307d6617 data\minecraft\tags\block\deepslate_ore_replaceables.json
+3c7cf8b4b3f796a66afa7c990a7012b55792f557 data\minecraft\tags\block\mineable\pickaxe.json
+84150f9be2fa26f9202962b031c722718dd23ca0 data\minecraft\tags\block\stone_ore_replaceables.json
+04423eae1d1e77c76d48914ceb0e3531f320e93f data\minecraft\tags\block\logs_that_burn.json
+5a80c8b82a893b920e4ec7f7794225ed67947b70 data\minecraft\tags\block\needs_diamond_tool.json
+8fde617d5a53d064f561230ea712505b18d2f6d9 data\minecraft\tags\block\dragon_immune.json
+3c6bf1d7810060abbba20bc5cf5c837e7dffe90f data\minecraft\tags\block\lava_pool_stone_cannot_replace.json
+9c75ba7c235b5998066a4d04bb564b40e8694cff data\minecraft\tags\block\needs_stone_tool.json
+eb949d538b3176cc7691a9f760f2bdb138c80fb7 data\minecraft\tags\block\needs_iron_tool.json
+5dc15c3a2775146a0369608da1c275cf4ece6a88 data\emeralddawn\tags\block\incorrect_for_emerald_tool.json
+784515907f58063051c533a74a2a11dd0e7ac8e2 data\minecraft\tags\block\beacon_base_blocks.json
+48e9916ae02579b5cc6755ee5e8e833a3529316b data\minecraft\tags\block\mineable\hoe.json
+039faf14848813e83b6f6d6cd23dc7a919b4308b data\minecraft\tags\block\mineable\axe.json
+a77109c345fcaeef5aa406d4a9dd69c84b752284 data\emeralddawn\tags\block\needs_emerald_tool.json
+efb98bef94420d7b76d480baf1529f8addd1ccd4 data\minecraft\tags\block\base_stone_overworld.json
+2279d1f34e9b03831a4631584ee0fcdf1ea0fc66 data\minecraft\tags\block\prevent_mob_spawning_inside.json
+bb2f3d36456b075ea5750b35fa41ad026dd44438 data\minecraft\tags\block\wither_immune.json

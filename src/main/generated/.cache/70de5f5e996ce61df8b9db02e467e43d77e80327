@@ -1,1 +1,3 @@
-// 1.21	2025-09-22T21:33:06.283383	EmeraldDawn/Block Loot Tables
+// 1.21	2025-09-30T07:24:10.3390122	EmeraldDawn/Block Loot Tables
+2e48ecb21739a64bf7593567f21dd1b10b43b12c data\emeralddawn\loot_table\blocks\magic_block.json
+7ef63a0ba2f030a9fc2b449c5a04d7516236fe6e data\emeralddawn\loot_table\blocks\ethernal_emerald_block.json

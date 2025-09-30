@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "emeralddawn:ethernal_emerald"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "RRR",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "emeralddawn:emerald_hammer"
+  }
+}

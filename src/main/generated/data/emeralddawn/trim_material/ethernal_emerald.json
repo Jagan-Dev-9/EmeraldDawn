@@ -1,0 +1,9 @@
+{
+  "asset_name": "ethernal_emerald",
+  "description": {
+    "color": "#B03FE0",
+    "translate": "trim_material.emeralddawn.ethernal_emerald"
+  },
+  "ingredient": "emeralddawn:ethernal_emerald",
+  "item_model_index": 1.0
+}

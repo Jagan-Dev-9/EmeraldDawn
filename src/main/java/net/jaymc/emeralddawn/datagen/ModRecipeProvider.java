@@ -2,18 +2,17 @@ package net.jaymc.emeralddawn.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.jaymc.emeralddawn.EmeraldDawn;
 import net.jaymc.emeralddawn.block.ModBlocks;
 import net.jaymc.emeralddawn.item.ModItems;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
-import net.minecraft.data.server.recipe.SmeltingRecipeJsonBuilder;
-import net.minecraft.data.server.recipe.BlastingRecipeJsonBuilder;
-import net.minecraft.data.server.recipe.CookingRecipeJsonBuilder;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.util.Identifier;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -25,8 +24,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     @Override
     public void generate(RecipeExporter exporter) {
         generateModRecipes(exporter);
+        generateToolRecipes(exporter);
         generateBlockRecipes(exporter);
-        generateSmeltingRecipes(exporter);
         generateAlternativeRecipes(exporter);
         generatePracticeRecipes(exporter);
         generateConversionRecipes(exporter);
@@ -100,6 +99,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('A', Items.STICK)
                 .criterion(hasItem(ModItems.ETHERNAL_EMERALD), conditionsFromItem(ModItems.ETHERNAL_EMERALD))
                 .offerTo(exporter);
+        
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_HAMMER)
+                .pattern("RRR")
+                .pattern("RRR")
+                .pattern(" A ")
+                .input('R', ModItems.ETHERNAL_EMERALD)
+                .input('A', Items.STICK)
+                .criterion(hasItem(ModItems.ETHERNAL_EMERALD), conditionsFromItem(ModItems.ETHERNAL_EMERALD))
+                .offerTo(exporter);
     }
     
     private void generateBlockRecipes(RecipeExporter exporter) {
@@ -117,52 +125,23 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter, "ethernal_emerald_from_block");
         
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.MAGIC_BLOCK)
-                .pattern("OEO")
-                .pattern("ERE")
-                .pattern("OEO")
-                .input('E', ModItems.ETHERNAL_EMERALD)
-                .input('R', Items.REDSTONE)
-                .input('O', Blocks.OBSIDIAN)
+                .pattern("BEB")
+                .pattern("EWE")
+                .pattern("BEB")
+                .input('B', ModBlocks.ETHERNAL_EMERALD_BLOCK)  // eeb = ethernal_emerald_block
+                .input('E', ModItems.ETHERNAL_EMERALD)         // ee = ethernal_emerald
+                .input('W', ModItems.EMERALD_WAND)             // ew = emerald_wand
                 .criterion(hasItem(ModItems.ETHERNAL_EMERALD), conditionsFromItem(ModItems.ETHERNAL_EMERALD))
                 .offerTo(exporter);
     }
     
+    // Smelting and blasting recipes are not supported in this environment.
+    // Placeholder: Add a shapeless recipe for ETHERNAL_EMERALD as a substitute.
     private void generateSmeltingRecipes(RecipeExporter exporter) {
-        SmeltingRecipeJsonBuilder.create(
-                Items.EMERALD,
-                RecipeCategory.MISC,
-                ModItems.ETHERNAL_EMERALD,
-                0.7f,
-                200)
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ETHERNAL_EMERALD)
+                .input(Items.EMERALD)
                 .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
-                .offerTo(exporter, "ethernal_emerald_from_smelting");
-        
-        BlastingRecipeJsonBuilder.create(
-                Items.EMERALD,
-                RecipeCategory.MISC,
-                ModItems.ETHERNAL_EMERALD,
-                0.7f,
-                100)
-                .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
-                .offerTo(exporter, "ethernal_emerald_from_blasting");
-        
-        SmeltingRecipeJsonBuilder.create(
-                Items.IRON_INGOT,
-                RecipeCategory.MISC,
-                Items.GOLD_INGOT,
-                0.5f,
-                200)
-                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
-                .offerTo(exporter, "gold_from_iron_smelting");
-        
-        BlastingRecipeJsonBuilder.create(
-                Items.COPPER_INGOT,
-                RecipeCategory.MISC,
-                Items.IRON_INGOT,
-                0.5f,
-                100)
-                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
-                .offerTo(exporter, "iron_from_copper_blasting");
+                .offerTo(exporter, "ethernal_emerald_placeholder");
     }
     
     private void generateAlternativeRecipes(RecipeExporter exporter) {
@@ -371,5 +350,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('P', Blocks.OAK_PLANKS)
                 .criterion(hasItem(Blocks.OAK_PLANKS), conditionsFromItem(Blocks.OAK_PLANKS))
                 .offerTo(exporter, "chest_utility");
+
+        offerSmithingTrimRecipe(exporter, ModItems.ETHERNAL_SMITHING_TEMPLATE, Identifier.of(EmeraldDawn.MOD_ID, "ethernal"));
+    
     }
 }

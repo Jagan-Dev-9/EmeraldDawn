@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "emeralddawn:ethernal_emerald"
+    },
+    {
+      "item": "emeralddawn:ethernal_emerald"
+    },
+    {
+      "item": "emeralddawn:ethernal_emerald"
+    },
+    {
+      "item": "emeralddawn:ethernal_emerald"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "emeralddawn:emerald_apple"
+  }
+}

@@ -14,5 +14,27 @@
   "item.emeralddawn.emerald_axe": "Emerald Axe",
   "item.emeralddawn.emerald_sword": "Emerald Sword",
   "item.emeralddawn.emerald_shovel": "Emerald Shovel",
-  "item.emeralddawn.emerald_hoe": "Emerald Hoe"
+  "item.emeralddawn.emerald_hoe": "Emerald Hoe",
+
+  "item.emeralddawn.emerald_hammer": "Emerald Hammer",
+
+  "item.emeralddawn.emerald_horse_armor": "Emerald Horse Armor",
+
+  "item.emeralddawn.ethernal_armor_smithing_template": "Ethernal Smithing Template",
+
+  "item.emeralddawn.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.emeralddawn.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+  "item.emeralddawn.emerald_helmet": "Emerald Helmet",
+  "item.emeralddawn.emerald_chestplate": "Emerald Chestplate",
+  "item.emeralddawn.emerald_leggings": "Emerald Leggings",
+  "item.emeralddawn.emerald_boots": "Emerald Boots",
+
+  "painting.emeralddawn.world.title": "chicken_jockey",
+  "painting.emeralddawn.world.author": "JayMC",
+
+  "trim_material.emeralddawn.ethernal": "Pink Garnet Material",
+  "trim_pattern.emeralddawn.ethernal": "Ethernal Armor Pattern",
+
+  "enchantments.emeralddawn.lightning_striker": "Lightning Striker"
 }

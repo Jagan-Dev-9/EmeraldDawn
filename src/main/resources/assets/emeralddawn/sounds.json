@@ -1,0 +1,10 @@
+{
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "emeralddawn:bar_brawl",
+        "stream": true
+      }
+    ]
+  }
+}

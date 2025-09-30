@@ -1,7 +1,10 @@
-// 1.21	2025-09-22T21:33:06.2793833	EmeraldDawn/Tags for minecraft:item
-c190f838bf35251be6ffa9989622d8260c2c941a data\minecraft\tags\item\pickaxes.json
+// 1.21	2025-09-30T07:24:10.3209088	EmeraldDawn/Tags for minecraft:item
+bc2fb1220bfa18a68065cabc633a21bd1f4df5f2 data\minecraft\tags\item\pickaxes.json
 0a11fc7eeccb5dcba2fb3d9f15b8a300c0939c2d data\minecraft\tags\item\axes.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\emeralddawn\tags\item\transformable_items.json
+bf40a87831133fd812e86e56fa619c3c98682870 data\minecraft\tags\item\trim_templates.json
 1a1f165ef366a46765f3d11cd7277bf0ac87e7d3 data\minecraft\tags\item\hoes.json
+e32748235705d139ddc55f94598d0793fe137207 data\minecraft\tags\item\trimmable_armor.json
 2c93943227ef55ad45c797deb06a48a3e7be3521 data\minecraft\tags\item\shovels.json
 8aa8afaa487694b0bfa4e68643b3e05f85e0c9b6 data\minecraft\tags\item\swords.json
+28135f937dc94dcca7a4237fa5027a030589f63e data\minecraft\tags\item\trim_materials.json

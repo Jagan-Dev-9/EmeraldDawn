@@ -30,6 +30,17 @@ public class ModItemGroups {
                         entries.add(ModItems.EMERALD_SHOVEL);
                         entries.add(ModItems.EMERALD_HOE);
 
+                        entries.add(ModItems.EMERALD_HAMMER);
+
+                        entries.add(ModItems.EMERALD_HELMET);
+                        entries.add(ModItems.EMERALD_CHESTPLATE);
+                        entries.add(ModItems.EMERALD_LEGGINGS);
+                        entries.add(ModItems.EMERALD_BOOTS);
+
+                        entries.add(ModItems.EMERALD_HORSE_ARMOR);
+
+                        entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
+
                     }).build());
 
 

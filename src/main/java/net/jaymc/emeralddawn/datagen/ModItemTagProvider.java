@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.jaymc.emeralddawn.item.ModItems;
 import net.jaymc.emeralddawn.util.ModTags;
+import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
 
@@ -27,5 +28,23 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.EMERALD_SHOVEL);
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.EMERALD_HOE);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.EMERALD_HAMMER);
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.EMERALD_HELMET)
+                .add(ModItems.EMERALD_CHESTPLATE)
+                .add(ModItems.EMERALD_LEGGINGS)
+                .add(ModItems.EMERALD_BOOTS);
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.EMERALD_HELMET)
+                .add(ModItems.EMERALD_CHESTPLATE)
+                .add(ModItems.EMERALD_LEGGINGS)
+                .add(ModItems.EMERALD_BOOTS);
+
+        getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.ETHERNAL_EMERALD);
+
+        getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.ETHERNAL_SMITHING_TEMPLATE);
     }
 }

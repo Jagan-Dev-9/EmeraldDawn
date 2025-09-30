@@ -1,0 +1,8 @@
+{
+  "asset_id": "emeralddawn:ethernal",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.emeralddawn.ethernal"
+  },
+  "template_item": "emeralddawn:ethernal_armor_trim_smithing_template"
+}

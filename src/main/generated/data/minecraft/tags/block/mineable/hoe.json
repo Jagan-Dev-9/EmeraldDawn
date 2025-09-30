@@ -1,0 +1,17 @@
+{
+  "values": [
+    "minecraft:hay_block",
+    "minecraft:dried_kelp_block",
+    "minecraft:sponge",
+    "minecraft:moss_block",
+    "minecraft:moss_carpet",
+    "minecraft:azalea_leaves",
+    "minecraft:flowering_azalea_leaves",
+    "minecraft:mangrove_leaves",
+    "minecraft:cherry_leaves",
+    "minecraft:sculk",
+    "minecraft:sculk_catalyst",
+    "minecraft:sculk_sensor",
+    "minecraft:sculk_shrieker"
+  ]
+}

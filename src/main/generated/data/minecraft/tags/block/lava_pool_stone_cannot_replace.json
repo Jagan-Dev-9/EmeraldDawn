@@ -1,0 +1,8 @@
+{
+  "values": [
+    "minecraft:bedrock",
+    "minecraft:spawner",
+    "minecraft:chest",
+    "minecraft:ender_chest"
+  ]
+}

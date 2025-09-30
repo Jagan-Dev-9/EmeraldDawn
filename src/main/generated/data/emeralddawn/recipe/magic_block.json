@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "B": {
+      "item": "emeralddawn:ethernal_emerald_block"
+    },
+    "E": {
+      "item": "emeralddawn:ethernal_emerald"
+    },
+    "W": {
+      "item": "emeralddawn:emerald_wand"
+    }
+  },
+  "pattern": [
+    "BEB",
+    "EWE",
+    "BEB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emeralddawn:magic_block"
+  }
+}
